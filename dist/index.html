@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary Clinic</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-gray-100 text-gray-900 h-screen">
+    <!-- Navbar -->
+    <header class="bg-green-600 text-white shadow">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">VetCare Clinic</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#services" class="hover:text-gray-200">Services</a></li>
+                    <li><a href="#about" class="hover:text-gray-200">About Us</a></li>
+                    <li><a href="contact.html" class="hover:text-gray-200">Contact</a></li>
+
+                    <li><a href="#login" class="hover:text-gray-200">Log In / Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-[url('./img.jpg')] bg-cover bg-center bg-no-repeat h-auto text-white">
+        <div class="container mx-auto px-6 py-12 text-center">
+            <h2 class="text-4xl font-bold">Caring for Your Pets</h2>
+            <p class="mt-4">Expert veterinary services for your furry friends.</p>
+            <a href="#appointment" class="mt-6 inline-block bg-white text-green-600 px-6 py-2 rounded shadow hover:bg-gray-100">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="#services" class="py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="grid place-content-center">
+                <div class="w-40 bg-opacity-50 text-2xl font-bold text-center text-green-600">Our Services</div>
+            </h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Help Videos</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Watch videos related to common pet symptoms and how to handle them.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Video Chat</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Connect with veterinarians via secure video calls for instant advice.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Nearby Hospitals</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Find veterinary hospitals near your location with ease.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">My Records</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Store and access records of your pet's medical history and appointments.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Community</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Join our community of pet lovers to share experiences and tips.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Routine Checkup Reminder</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Set reminders for your pet's routine checkups and vaccinations.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Preventive Care</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Routine check-ups and vaccinations to keep your pet healthy.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Diagnostics</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Advanced diagnostics to identify and treat conditions early.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold text-green-600 grid place-content-center">
+                        <a href="soon.html" class="transition-transform duration-200 hover:scale-110">Surgery</a>
+                    </h3>
+                    <p class="mt-2 text-gray-700">Safe and effective surgical procedures for your pets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Log In / Sign Up Section -->
+    <section id="login" class="bg-gray-200 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold text-green-600">Log In / Sign Up</h2>
+            <p class="mt-4 text-gray-700">Access your account or create a new one to manage your pet care.</p>
+            <div class="mt-6 flex justify-center space-x-4">
+                <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Log In</button>
+                <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 VetCare Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
